@@ -111,7 +111,7 @@ class VirtualPetSimulator
         happiness = 5;
         health = 5;
     }
-/*
+
 
     // Displaying Welcome message
     public void DisplayWelcomeMessage()
@@ -126,7 +126,7 @@ class VirtualPetSimulator
         Console.WriteLine($"Hunger: {hunger}\nHappiness: {happiness}\nHealth: {health}\n");
     }
 
-
+/*
     // Pet care method for Feed
     public void Feed()
     {
