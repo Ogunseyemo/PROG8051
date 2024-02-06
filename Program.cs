@@ -94,7 +94,7 @@ partial class Program
         }
     }
 }
-/*
+
 class VirtualPetSimulator
 {
     private string petType;
@@ -111,7 +111,7 @@ class VirtualPetSimulator
         happiness = 5;
         health = 5;
     }
-
+/*
 
     // Displaying Welcome message
     public void DisplayWelcomeMessage()
