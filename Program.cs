@@ -155,7 +155,7 @@ class VirtualPetSimulator
         health = Math.Min(10, health + 2);
         happiness = Math.Max(0, happiness - 1);
     }
-    /*
+    
 
     //// Checking Pet Status
     public void CheckPetStatus()
@@ -182,5 +182,5 @@ class VirtualPetSimulator
         health = Math.Max(0, health - 1);
         DisplayStatus();
     }
-}*/
+}
 
