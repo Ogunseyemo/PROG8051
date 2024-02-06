@@ -15,9 +15,9 @@ class Program
         Console.Write("User input:");
         //Read the value of Pet Selected
         string petTypeSelect = Console.ReadLine();
-        string petType = ""; }
+        string petType = ""; 
 
-      /*  //Using pet value to assign Pet name
+        //Using pet value to assign Pet name
         if (petTypeSelect == "1")
         {
             petType = "Cat";
@@ -45,7 +45,7 @@ class Program
 
         string petName = Console.ReadLine();
 
-        // Calling a Virtual pet Simulator Class, by declaring an instance of the Class
+       /* // Calling a Virtual pet Simulator Class, by declaring an instance of the Class
         VirtualPetSimulator pet = new VirtualPetSimulator(petType, petName);
         pet.DisplayWelcomeMessage();
 
