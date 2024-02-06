@@ -136,7 +136,7 @@ class VirtualPetSimulator
         health = Math.Min(10, health + 1);
 
     }
-/*
+
     // Pet care method for Play
     public void Play()
     {
@@ -155,7 +155,7 @@ class VirtualPetSimulator
         health = Math.Min(10, health + 2);
         happiness = Math.Max(0, happiness - 1);
     }
-
+    /*
 
     //// Checking Pet Status
     public void CheckPetStatus()
