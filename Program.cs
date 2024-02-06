@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-class Program
+partial class Program
 {
     static void Main()
     {
@@ -45,7 +45,7 @@ class Program
 
         string petName = Console.ReadLine();
 
-       /* // Calling a Virtual pet Simulator Class, by declaring an instance of the Class
+        // Calling a Virtual pet Simulator Class, by declaring an instance of the Class
         VirtualPetSimulator pet = new VirtualPetSimulator(petType, petName);
         pet.DisplayWelcomeMessage();
 
@@ -86,7 +86,7 @@ class Program
                     break;
             }
 
-            // Simulate time passing after each action
+           // Simulate time passing after each action
             //pet.SimulateTimePassing();
 
             // Pause to allow the user to read the updates
@@ -94,7 +94,7 @@ class Program
         }
     }
 }
-
+/*
 class VirtualPetSimulator
 {
     private string petType;
