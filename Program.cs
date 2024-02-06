@@ -126,7 +126,7 @@ class VirtualPetSimulator
         Console.WriteLine($"Hunger: {hunger}\nHappiness: {happiness}\nHealth: {health}\n");
     }
 
-/*
+
     // Pet care method for Feed
     public void Feed()
     {
@@ -136,7 +136,7 @@ class VirtualPetSimulator
         health = Math.Min(10, health + 1);
 
     }
-
+/*
     // Pet care method for Play
     public void Play()
     {
