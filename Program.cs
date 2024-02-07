@@ -12,7 +12,7 @@ partial class Program
         Console.WriteLine("2. Dog ");
         Console.WriteLine("3. Rabbit");
 
-        Console.Write("User input:");
+        Console.Write("User input: ");
         //Read the value of Pet Selected
         string petTypeSelect = Console.ReadLine();
         string petType = ""; 
@@ -35,13 +35,13 @@ partial class Program
         }
         else
         {
-            Console.Write("Invalid Option Selected ! ");
+            Console.Write("Invalid Option Selected!");
         }
 
-        Console.Write("You've Chosen " + petType);
+        Console.Write("You've Chosen a " + petType);
         //Creating your Pet
         Console.WriteLine("  What would you like to name your Pet? : ");
-        Console.Write("User input:");
+        Console.Write("User input: ");
 
         string petName = Console.ReadLine();
 
@@ -116,7 +116,7 @@ class VirtualPetSimulator
     // Displaying Welcome message
     public void DisplayWelcomeMessage()
     {
-        Console.WriteLine($"Welcome {petName} ! Let''s take care of him.\n");
+        Console.WriteLine($"Welcome {petName}! Let''s take care of him.\n");
     }
 
     // Displaying Status
